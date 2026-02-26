@@ -1,11 +1,16 @@
-# python 
-.venv
+# Python
+.venv/
 __pycache__/
-.env
-requirements.txt
+*.pyc
 
-# Data files
+# Environment
+.env
+backend/.env
+
+# Data
 Data/
 *.csv
 
-#
+# Node
+node_modules/
+dist/
